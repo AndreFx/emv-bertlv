@@ -4,7 +4,7 @@
 
   <groupId>io.github.binaryfoo</groupId>
   <artifactId>emv-bertlv</artifactId>
-  <version>0.1.9-SNAPSHOT</version>
+  <version>0.2.0</version>
   <name>EMV BER-TLV Decoder</name>
   <description>
     Some decoders for the data used in EMV credit card transactions.
@@ -217,7 +217,7 @@
     <dependency>
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
-      <version>1.16</version>
+      <version>2.0</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
