@@ -23,7 +23,7 @@ Cryptogram: D58B731AF5885C06
 Transaction data hash code: 7BE29D015DD4C9454026810F0879E219B8A7DCD0
 Hash: 5734B62BE6BFF2A04C1CFF4060E549C932E1723D
 Trailer: BC
-""")))
+""".replace("\n", System.lineSeparator()))))
   }
 
   @Test
@@ -38,6 +38,6 @@ ICC dynamic number length: 6
 ICC dynamic number: 112233445566
 Hash: 97C21EB1AA67291E00322913CE1C52CCF0D93200
 Trailer: BC
-""")))
+""".replace("\n", System.lineSeparator()))))
   }
 }

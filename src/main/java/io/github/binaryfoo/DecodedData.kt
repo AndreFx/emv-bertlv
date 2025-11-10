@@ -205,7 +205,7 @@ data class DecodedData(
             b.append(" ")
           }
         }
-        b.append(decodedData).append("\n")
+        b.append(decodedData).append(System.lineSeparator())
         b.append(d.children.toSimpleString("$indent  "))
       }
       return b.toString()

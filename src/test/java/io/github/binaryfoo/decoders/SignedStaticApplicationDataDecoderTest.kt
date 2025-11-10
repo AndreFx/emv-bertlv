@@ -17,6 +17,6 @@ Hash Algorithm: 01
 Data Auth Code: 0001
 Hash: F6E1F5D3652F06C2D5F9E6599AE8ED5BE1D575CF
 Trailer: BC
-""")))
+""".replace("\n", System.lineSeparator()))))
   }
 }
